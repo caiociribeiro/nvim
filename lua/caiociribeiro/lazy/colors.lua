@@ -1,4 +1,4 @@
-function ColorMyPencils(color)
+function ClrScheme(color)
 	color = color or "rose-pine"
 	vim.cmd.colorscheme(color)
 
@@ -114,7 +114,7 @@ return {
 
 			vim.cmd("colorscheme rose-pine")
 
-			ColorMyPencils()
+			ClrScheme()
 		end,
 	},
 }
