@@ -5,8 +5,8 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
-vim.opt.wrap = true --working?
-vim.opt.textwidth = 80 --not working
+vim.opt.wrap = true
+vim.opt.textwidth = 80
 
 vim.opt.number = true
 vim.opt.relativenumber = true
