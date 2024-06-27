@@ -12,6 +12,7 @@ return {
 			javascriptreact = { "prettierd" },
 			css = { "prettierd" },
 			html = { "prettierd" },
+			json = { "prettierd" },
 		},
 	},
 }
