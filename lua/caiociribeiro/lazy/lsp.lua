@@ -109,9 +109,8 @@ return {
 						filetypes = { "html", "templ", "javascript" },
 					},
 					tsserver = {},
-					--
-
 					lua_ls = {},
+					pyright = {},
 				}, require("mason").setup()
 
 			local ensure_installed = vim.tbl_keys(servers or {})
