@@ -13,6 +13,7 @@ return {
 			css = { "prettierd" },
 			html = { "prettierd" },
 			json = { "prettierd" },
+			python = { "black" },
 		},
 	},
 }

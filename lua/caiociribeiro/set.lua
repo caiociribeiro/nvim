@@ -1,23 +1,36 @@
-vim.opt.guicursor = ""
+local opt = vim.opt
 
-vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
-vim.opt.shiftwidth = 4
-vim.opt.expandtab = true
+opt.guicursor = ""
 
-vim.opt.wrap = false
-vim.opt.textwidth = 80
-vim.o.linebreak = true
+opt.number = true
+opt.relativenumber = true
 
-vim.opt.number = true
-vim.opt.relativenumber = true
+-- sync OS and nvim clipboard
+opt.clipboard = "unnamedplus"
 
-vim.opt.smartindent = true
-vim.opt.nu = true
+opt.breakindent = true
 
-vim.opt.signcolumn = "yes"
-vim.opt.breakindent = true
+-- save undo history
+opt.undofile = true
 
-vim.opt.undofile = true
-vim.opt.timeoutlen = 300
-vim.opt.scrolloff = 10
+opt.signcolumn = "yes"
+
+-- decrease update time
+opt.updatetime = 250
+opt.timeoutlen = 300
+
+opt.inccommand = "split"
+
+opt.tabstop = 4
+opt.softtabstop = 4
+opt.shiftwidth = 4
+opt.expandtab = true
+
+-- highlight on search, unhighlight when escaped
+opt.hlsearch = true
+vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
+
+opt.wrap = false
+opt.textwidth = 80
+opt.linebreak = true
+opt.scrolloff = 10
