@@ -30,7 +30,7 @@ opt.expandtab = true
 opt.hlsearch = true
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
 
-opt.wrap = false
+opt.wrap = true
 opt.textwidth = 80
 opt.linebreak = true
 opt.scrolloff = 10
