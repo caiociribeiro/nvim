@@ -2,7 +2,6 @@ vim.g.mapleader = " "
 vim.g.mallocalleader = " "
 
 vim.g.have_nerd_font = true
-
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 vim.keymap.set("n", "<leader>fx", '<cmd>!google-chrome "%"<cr>', { desc = "Open file in Chrome" })
